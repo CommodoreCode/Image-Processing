@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "Jasmine": "Jasmine",
     "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
     "test": "npx tsc && jasmine",
     "start": "nodemon --watch './**/*.ts' --exec 'ts-node' ./src/index.ts",
