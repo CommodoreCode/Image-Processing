@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "jasmine": "jasmine",
-    "prettier": "prettier --config .prettierrc 'src/**/*.ts' --write",
+    "prettier": "prettier --config .prettierrc src/**/*.ts --write",
     "test": "npx tsc && jasmine",
     "start": "nodemon --watch './**/*.ts' --exec 'ts-node' ./src/index.ts",
     "build": "npx tsc",
     "start:prod": "npm run build && node dist/index.js",
-    "lint": "eslint 'src/index.ts'"
+    "lint": "eslint src/**/*.ts"
   },
   "author": "",
   "license": "ISC",
@@ -28,6 +28,7 @@
     "@types/jasmine": "^4.3.2",
     "@types/morgan": "^1.9.4",
     "@types/node": "^20.2.5",
+    "@typescript-eslint/eslint-plugin": "^5.59.9",
     "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
