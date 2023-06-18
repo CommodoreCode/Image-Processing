@@ -7,6 +7,6 @@ TO RUN PROJECT:
 
 1- npm run build 
 
-2- use the following url to & change the parameteres of the width & height to the desired output: http://localhost:3000/resize?images/JohnWick.jpg&width=200&height=200
+2- use the following url to & change the parameteres of the width & height to the desired output: http://localhost:3000/resize?images/encenadaport&width=500&height=500
 
 3- once the width & height are changed from the example paramteres as in the above step it will be reflected in the file 'images\Modified\encenadaport_new.jpg'
